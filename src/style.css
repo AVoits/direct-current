@@ -1,0 +1,21 @@
+#playing-area {
+    display: flex;
+}
+
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+
+.square:hover {
+    cursor: pointer;
+}
+
+
+.rotate {
+    transform: rotate(90deg);
+    transition: all 1s;
+}
+
